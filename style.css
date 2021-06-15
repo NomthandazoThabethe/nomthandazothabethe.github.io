@@ -58,7 +58,7 @@ html, body{
 
 .wrapper .form .inbox .msg-header{
     max-width: 53%;
-    /* background: red; */
+    background: red;
     margin-left: 10px;
 }
 
