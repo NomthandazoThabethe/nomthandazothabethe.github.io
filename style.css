@@ -134,3 +134,16 @@ html, body{
     opacity: 1;
     pointer-events:  auto;
 }
+
+button {
+    display: block;
+    background-color: rgba(255,255,255,.6);
+    flex: 1;
+    border: 1px solid rgba(0,0,0,.2);
+    height: 27px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0;
+    border-radius: 13px;
+}
