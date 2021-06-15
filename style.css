@@ -56,11 +56,11 @@
     background: #007bff;
 }
 
-.wrapper .form .inbox .msg-header{
+/* .wrapper .form .inbox .msg-header{
     max-width: 5%;
     background: red;
     margin-left: 10px;
-}
+} */
 
 .form .inbox .msg-header p{
     color: #fff;
