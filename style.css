@@ -69,3 +69,30 @@ html, body{
     padding: 8px 10px;
     font-size: 14px;
 }
+
+.wrapper .typing-field{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #efefef;
+    border-top: 1px solid #d9d9d9;
+    border-radius: 0 0 5px 5px;
+}
+
+.wrapper .typing-field .input-data{
+    height: 40px;
+    width: 335px;
+}
+
+.wrapper .typing-field .input-data input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0 80px 0 15px;
+    border-radius: 3px;
+    font-size: 15px;
+    background: #fff;
+}
