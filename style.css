@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family-Poppins:wght@200;300,400,500,600,700&display=swap');
-/* *{
+*{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'css?family-Poppins';
-} */
+}
 
-html, body{
+/* html, body{
     display: grid;
     height: 100%;
     place-items: center;
-}
+} */
 
 .wrapper{
     width: 370px;
@@ -57,7 +57,7 @@ html, body{
 }
 
 .wrapper .form .inbox .msg-header{
-    max-width: 53%;
+    max-width: 5%;
     background: red;
     margin-left: 10px;
 }
