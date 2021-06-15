@@ -6,11 +6,11 @@
     font-family: 'css?family-Poppins';
 }
 
-/* html, body{
+html, body{
     display: grid;
     height: 100%;
     place-items: center;
-} */
+}
 
 .wrapper{
     width: 370px;
