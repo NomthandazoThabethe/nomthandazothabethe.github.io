@@ -58,7 +58,7 @@ html, body{
 
 .wrapper .form .inbox .msg-header{
     max-width: 53%;
-    background: red;
+    background: white;
     margin-left: 10px;
 }
 
@@ -103,5 +103,34 @@ html, body{
     right: 5px;
     top: 50%;
     height: 30px;
+    width: 65px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 3px;
+    background: #007bff;
+    border: 1px solid #007bff;
     transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+.typing-field .input-data button:hover{
+    background: #007bff;
+
+}
+
+.typing-field .input-data input:focus{
+    border-color: rgba(0,123,255,0,8);
+}
+
+.input-data input::placeholder{
+    color: #999999;
+    transition: all 0.3s ease;
+}
+
+.input-data input:valid ~ button{
+    opacity: 1;
+    pointer-events:  auto;
 }
