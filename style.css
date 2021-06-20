@@ -156,7 +156,7 @@ html, body{
     pointer-events:  auto;
 }
 
-button {
+/* button {
     display: block;
     background-color: rgba(255,255,255,.6);
     flex: 1;
@@ -167,4 +167,4 @@ button {
     line-height: 25px;
     padding: 0;
     border-radius: 13px;
-}
+} */
