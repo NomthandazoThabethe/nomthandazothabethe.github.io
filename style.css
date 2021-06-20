@@ -70,6 +70,27 @@ html, body{
     font-size: 14px;
 }
 
+.user-text {
+	border-color: #007bff;;
+	height: 35px;
+	width: 250px;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.send-button {
+	background-color: #007bff;
+	color: white;
+	width: 1px;
+}
+
+.send-button:hover {
+	color: #007bff;
+	background-color: white;
+
+}
+
 .wrapper .typing-field{
     display: flex;
     height: 60px;

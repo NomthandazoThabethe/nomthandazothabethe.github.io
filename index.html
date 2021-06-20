@@ -5,7 +5,7 @@
         <meta name="viewport" content="width-device-width , initial-scale=1.0">
         <title>A chat bot written in PHP</title>
         <link rel="stylesheet" href="style.css">
-        <script src=http://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="http://kit.fontawesome.com/a076d05399.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -13,6 +13,7 @@
             <div class="form">
                 <div class="bot-inbox inbox">
                     <div class="icon">
+					{% comment %} replace i element and replace with picture {% endcomment %}
                         <i class="fat fa-user"></i>
                     </div>
                     <div class="msg-header"><p>Hello there, my name is Nomthandazo Thabethe, Ask me anything :)</p></div>
@@ -21,8 +22,10 @@
                     <div class="msg-header"><p>Hello there, my name is Nomthandazo Thabethe, Ask me anything :) ..</p></div>
                 </div> -->
             </div>
-            <div class="typing-field"><input type="text" placeholder="Type something here" required></div>
-            <button>Send</button>
+            <div class="typing-field">
+			<input class="user-text"type="text" placeholder="Type something here" required>
+            <button class="send-button">Send</button>
+			</div>
         </div>
     </body>
 </html>
