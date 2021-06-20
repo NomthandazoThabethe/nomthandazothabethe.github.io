@@ -137,7 +137,7 @@ html, body{
     transition: all 0.3s ease;
 } */
 
-.typing-field .input-data button:hover{
+/* .typing-field .input-data button:hover{
     background: #007bff;
 
 }
@@ -154,7 +154,7 @@ html, body{
 .input-data input:valid ~ button{
     opacity: 1;
     pointer-events:  auto;
-}
+} */
 
 /* button {
     display: block;
