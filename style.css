@@ -45,7 +45,18 @@ html, body{
     align-items: baseline;
 }
 
-.wrapper .form .inbox .image{
+.wrapper .form .inbox {
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 10px;
+    background: #007bff;
+}
+
+.image {
     height: 40px;
     width: 40px;
     color: #fff;
