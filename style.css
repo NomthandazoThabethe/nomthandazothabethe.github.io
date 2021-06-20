@@ -56,6 +56,11 @@ html, body{
     background: #007bff;
 }
 
+.icon img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
 .wrapper .form .inbox .msg-header{
     max-width: 53%;
     background: white;
