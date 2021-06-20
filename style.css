@@ -45,7 +45,7 @@ html, body{
     align-items: baseline;
 }
 
-.wrapper .form .inbox {
+.wrapper .form .inbox .icon{
     height: 40px;
     width: 40px;
     color: #fff;
@@ -56,16 +56,13 @@ html, body{
     background: #007bff;
 }
 
-.image {
-    height: 40px;
-    width: 40px;
-    color: #fff;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    font-size: 10px;
-    background: #007bff;
+img{
+    border: 1px solid #ddd;	/* thickness and color of border */
+    border-radius: 4px;		/* edge rounding of border */
+    width: 150px;				/* width of image (px or % or auto) */
+    height: auto;
 }
+
 
 .wrapper .form .inbox .msg-header{
     max-width: 53%;
