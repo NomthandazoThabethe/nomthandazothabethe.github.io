@@ -119,7 +119,7 @@ html, body{
     background: #fff;
 }
 
-.wrapper .typing-field .input-data button{
+/* .wrapper .typing-field .input-data button{
     position:absolute;
     right: 5px;
     top: 50%;
@@ -135,7 +135,7 @@ html, body{
     border: 1px solid #007bff;
     transform: translateY(-50%);
     transition: all 0.3s ease;
-}
+} */
 
 .typing-field .input-data button:hover{
     background: #007bff;
