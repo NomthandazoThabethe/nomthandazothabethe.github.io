@@ -45,7 +45,7 @@ html, body{
     align-items: baseline;
 }
 
-.wrapper .form .inbox .icon{
+.wrapper .form .inbox .icon .image{
     height: 40px;
     width: 40px;
     color: #fff;
@@ -56,11 +56,7 @@ html, body{
     background: #007bff;
 }
 
-.image{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-}
+
 .wrapper .form .inbox .msg-header{
     max-width: 53%;
     background: white;
