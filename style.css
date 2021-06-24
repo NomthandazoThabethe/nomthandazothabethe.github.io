@@ -21,13 +21,13 @@ html, body{
 }
 
 .wrapper .title{
-    background: #007bff;
+    background: #720058;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     line-height:60px;
     text-align: center;
-    border-bottom: 1px solid #006fe6;
+    border-bottom: 1px solid #720058;
     border-radius: 5px 5px 0 0;
 
 }
@@ -53,7 +53,7 @@ html, body{
     line-height: 40px;
     border-radius: 50%;
     font-size: 10px;
-    background: #007bff;
+    background: #720058;
 }
 
 .image{
@@ -69,14 +69,14 @@ html, body{
 
 .form .inbox .msg-header p{
     color: #fff;
-    background: #007bff;
+    background: #720058;
     border-radius: 10px;
     padding: 8px 10px;
     font-size: 14px;
 }
 
 .user-text {
-	border-color: #007bff;;
+	border-color: #720058;
 	height: 35px;
 	width: 250px;
 	border-radius: 10px;
@@ -85,11 +85,11 @@ html, body{
 }
 
 .send-button {
-	background-color: pink;
+	background-color: #720058;
 	color: white;
 	width: 1px;
     border-radius:28px;
-    text-shadow:0px 1px 0px #2f6627;
+    text-shadow:0px 1px 0px #720058;
 } 
 
 
@@ -113,6 +113,9 @@ html, body{
     height: 40px;
     width: 335px;
     position: relative;
+}
+
+.input-data{
     overflow-wrap: break-word;
 }
 
@@ -139,15 +142,14 @@ html, body{
     opacity: 0;
     pointer-events: none;
     border-radius: 3px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background: #720058;
+    border: 1px solid #720058;
     transform: translateY(-50%);
     transition: all 0.3s ease;
 }
 
 .typing-field .input-data button:hover{
-    background: #007bff;
-
+    background: #720058;
 }
 
 .typing-field .input-data input:focus{
@@ -166,9 +168,9 @@ html, body{
 
 button {
     display: block;
-    background-color: rgba(255,255,255,.6);
+    background-color: #720058;
     flex: 1;
-    border: 1px solid rgba(0,0,0,.2);
+    border: 1px solid #720058;
     height: 27px;
     box-sizing: border-box;
     font-size: 16px;
