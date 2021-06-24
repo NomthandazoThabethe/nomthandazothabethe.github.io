@@ -109,6 +109,11 @@ html, body{
     border-radius: 0 0 5px 5px;
 }
 
+.wrapper .form .user-inbox{
+    justify-content: flex-end;
+    margin: 13px 0;
+}
+
 .wrapper .typing-field .input-data{
     height: 40px;
     width: 335px;
@@ -166,7 +171,7 @@ html, body{
     pointer-events:  auto;
 }
 
-button {
+/* button {
     display: block;
     background-color: #720058;
     flex: 1;
@@ -177,4 +182,4 @@ button {
     line-height: 25px;
     padding: 0;
     border-radius: 13px;
-}
+} */
