@@ -93,10 +93,10 @@ html, body{
 } 
 
 
-.send-button:hover {
+/* .send-button:hover {
 	color: #007bff;
 	background-color: white;
-}
+} */
 
 .wrapper .typing-field{
     display: flex;
@@ -126,7 +126,7 @@ html, body{
     background: #fff;
 }
 
-.wrapper .typing-field .input-data button{
+.wrapper .typing-field .input-data .send-button:hover{
     position:absolute;
     right: 5px;
     top: 50%;
