@@ -56,6 +56,15 @@ html, body{
     background: #720058;
 }
 
+.icon2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #720058;
+    position:relative;
+    right:10;
+}
+
 .image{
     height: 40px;
     width: 40px;
